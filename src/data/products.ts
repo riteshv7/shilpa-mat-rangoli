@@ -318,24 +318,48 @@ export const PRODUCTS: Product[] = [
   {
     id: "smr-geometric-01",
     code: "SMR-GEO-01",
-    name: "8-Pointed Geometric Star Mandala",
+    name: "8-Pointed Geometric Star Mandala (15x14)",
     marathiHindiTitle: "८-कोनी अष्टकोन स्टार रांगोळी",
     category: "living-center",
     categoryName: "Living Room Mandalas",
     image: "/images/rangoli-32.jpeg",
-    additionalImages: ["/images/rangoli-20.jpeg"],
-    dimensions: "20 x 20 inches",
+    dimensions: "15 x 14 inches",
     material: "Two-tone marigold & green tufted yarn",
-    tagline: "Sacred Sacred Geometry in Marigold & Emerald",
-    description: "Interlocking star points in radiant golden yellow, orange, and lush emerald green border. Perfect for modern spaces that love clean geometric symmetry.",
-    idealFor: ["Modern living rooms", "Center table", "Festival mandap center"],
+    tagline: "Sacred Geometry in Compact Festive Size",
+    description: "A beautifully proportioned 15x14 inch geometric star mandala featuring interlocking points in golden yellow, orange, and emerald green. Ideal for center tables, pooja rooms, and compact spaces.",
+    idealFor: ["Center table decor", "Pooja room center", "Festival welcoming", "Apartment living room"],
     features: [
-      "Crisp geometric lines hand-tufted to perfection",
-      "Dual tone marigold palette matches fresh flower themes",
-      "Long-lasting shape retention"
+      "Compact 15 x 14 inch size fits any table or floor",
+      "Crisp geometric symmetry hand-tufted to perfection",
+      "Vivid marigold and emerald colorfast wool",
+      "Reusable and washable for years"
     ],
     badge: "Handmade",
     estimatedPriceRange: "₹550",
+    inStock: true
+  },
+  {
+    id: "smr-geometric-02",
+    code: "SMR-GEO-02",
+    name: "Grand 8-Pointed Geometric Star Mandala (24x24)",
+    marathiHindiTitle: "भव्य ८-कोनी अष्टकोन स्टार चक्र",
+    category: "living-center",
+    categoryName: "Living Room Mandalas",
+    image: "/images/rangoli-20-studio.jpg",
+    additionalImages: ["/images/rangoli-20.jpeg"],
+    dimensions: "24 x 24 inches",
+    material: "Plush multi-tier tufted yarn on anti-slip backing",
+    tagline: "Grand 24-Inch Festive Centerpiece with Golden Star Points",
+    description: "A grand 24x24 inch statement star mandala featuring elaborate interlocking geometric points in radiant golden yellow, orange, and emerald green. A majestic centerpiece for festive celebrations and living rooms.",
+    idealFor: ["Living room centerpiece", "Main hall entrance", "Diwali pooja setup", "Housewarming function"],
+    features: [
+      "Grand 24 x 24 inch showstopper dimensions",
+      "High-density plush tufting that lies completely flat",
+      "Rich traditional color palette that never fades",
+      "100% reusable, washable, and mess-free"
+    ],
+    badge: "Bestseller",
+    estimatedPriceRange: "₹1,050",
     inStock: true
   },
   {

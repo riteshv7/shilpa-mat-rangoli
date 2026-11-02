@@ -142,6 +142,7 @@ export const Hero: React.FC = () => {
                   <img
                     src={HERO_SLIDES[currentSlide].image}
                     alt={HERO_SLIDES[currentSlide].title}
+                    decoding="async"
                     className="w-full h-full object-cover transition-all duration-700 transform group-hover:scale-105"
                   />
                   

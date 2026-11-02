@@ -9,6 +9,8 @@ interface ProductCardProps {
 }
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView }) => {
+  const [imgLoaded, setImgLoaded] = React.useState(false);
+
   const getBadgeStyle = (badge?: string) => {
     switch (badge) {
       case 'Bestseller':
@@ -29,11 +31,19 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView }
       
       {/* Product Image Area */}
       <div className="relative aspect-square overflow-hidden bg-[#FAF7F2] cursor-pointer" onClick={() => onQuickView(product)}>
+        {/* Loading shimmer placeholder */}
+        {!imgLoaded && (
+          <div className="absolute inset-0 bg-stone-100 animate-pulse flex items-center justify-center">
+            <span className="text-xl opacity-40">🌸</span>
+          </div>
+        )}
+
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-          loading="lazy"
+          decoding="async"
+          onLoad={() => setImgLoaded(true)}
+          className={`w-full h-full object-cover transition-all duration-500 group-hover:scale-105 ${imgLoaded ? 'opacity-100' : 'opacity-0'}`}
         />
 
         {/* Floating Badge */}

@@ -104,6 +104,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) 
                 <img
                   src={activeImage}
                   alt={product.name}
+                  decoding="async"
                   className="w-full h-full object-cover transition-transform duration-200"
                   style={{
                     transformOrigin: `${zoomPos.x}% ${zoomPos.y}%`,

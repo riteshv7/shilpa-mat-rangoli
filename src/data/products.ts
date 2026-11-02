@@ -256,7 +256,6 @@ export const PRODUCTS: Product[] = [
     category: "corridor-runner",
     categoryName: "Corridors & Runners",
     image: "/images/rangoli-04.jpeg",
-    additionalImages: ["/images/rangoli-06.jpeg"],
     dimensions: "36 x 9 inches (Pair)",
     material: "Tufted woolen yarn with flexible scroll spine",
     tagline: "Natural Floral Vines for Hallways and Passages",

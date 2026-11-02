@@ -98,7 +98,7 @@ export const PRODUCTS: Product[] = [
     categoryName: "Entrance & Threshold",
     image: "/images/swastik-entrance-luxury.jpg",
     additionalImages: ["/images/rangoli-30.jpeg"],
-    dimensions: "28 x 16 inches",
+    dimensions: "22 x 14 inches",
     material: "Heavy-duty woolen pile with wave-scalloped border",
     tagline: "Auspicious Welcome for Wealth and Prosperity",
     description: "A traditional rectangular door threshold mat displaying a sacred red Swastik emblem on ivory, framed by festive yellow and emerald green scalloped borders.",

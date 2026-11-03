@@ -315,6 +315,30 @@ export const PRODUCTS: Product[] = [
     inStock: true
   },
   {
+    id: "smr-half-mandala-02",
+    code: "SMR-HLF-02",
+    name: "Royal Blue Semicircle Threshold Mat",
+    marathiHindiTitle: "शाही अर्ध-चक्र उंबरा रांगोळी",
+    category: "entrance",
+    categoryName: "Entrance & Threshold",
+    image: "/images/semicircle-mandala-20.jpg",
+    additionalImages: ["/images/semicircle-mandala-20-horizontal.jpg"],
+    dimensions: "20 x 20 inches",
+    material: "Dense tufted yarn with flat flush edge",
+    tagline: "Vibrant Royal Blue & Scalloped Petal Arch for Doorways",
+    description: "An auspicious 20x20 inch semicircle arch mat featuring a royal blue floral core with a golden saffron flame jewel, framed by vibrant radiating petals in magenta, sunshine yellow, and deep purple with emerald green foliage.",
+    idealFor: ["Main doorway entrance", "Pooja room threshold", "Flush wall/step placement", "Festive welcoming"],
+    features: [
+      "20 x 20 inch size sits neatly flush against door thresholds",
+      "Elaborate multi-tier scalloped floral arch with royal blue center",
+      "Vivid colorfast tufted wool that lies flat without curling",
+      "Reusable, washable, and anti-slip backing"
+    ],
+    badge: "New Design",
+    estimatedPriceRange: "₹850",
+    inStock: true
+  },
+  {
     id: "smr-geometric-01",
     code: "SMR-GEO-01",
     name: "8-Pointed Geometric Star Mandala (15x14)",
